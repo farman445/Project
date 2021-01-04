@@ -1,0 +1,23 @@
+extends ../home 
+ 
+block content 
+        section.form.my-4.mx-5
+            .container
+                .row.no-gutters
+                    .col-lg-7.px-10.pt-2
+                        h1.font-weight-bold.py3.mx-3 Sign Up 
+                        form(action="/user/login", method="post" id="form") 
+                            .form-row
+                                .col-lg-7
+                                input.form-control.m-3.m-4(type="text", placeholder="User Name")
+                            .form-row
+                                .col-lg-7
+                                input.form-control.m-3.m-4(type="password", placeholder="Password")
+                            .form-row
+                                .col-lg-7
+                                input.form-control.m-3.m-4(type="password", placeholder="Confirm Password")
+        
+                            .form-row
+                                .col-lg-7
+                                    a.m-3.m-4(href="/", class="btn  btn-warning btn-submit ") Sign Up 
+                                     a(href="/users/signIN", class="link") Already Have Account? Sign In

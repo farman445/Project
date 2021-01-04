@@ -1,0 +1,20 @@
+extends ../home 
+
+
+block content 
+        section.form.my-4.mx-5
+            .container
+                .row.no-gutters
+                    .col-lg-7.px-10.pt-2
+                        h1.font-weight-bold.py3.mx-3 Sign In
+                        form(action="/", method="post" id="form") 
+                            .form-row
+                                .col-lg-7
+                                input.form-control.m-3.m-4(type="email", placeholder="E-Mail", name="email")
+                            .form-row
+                                .col-lg-7
+                                input.form-control.m-3.m-4(type="password", placeholder="Password", name=password)
+                            .form-row
+                                .col-lg-7
+                                   a.m-3.m-4(href="/", class="btn  btn-warning btn-submit  ") Sign In
+                                    a(href="/users/signUP", class="link") Did't Have Account? Click Here
