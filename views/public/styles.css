@@ -5,7 +5,7 @@
 .heading {
   margin-top: 20px;
 }
-.btn-warning {
+.btn-secondary {
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -34,10 +34,10 @@
 }
 
 .btn-sign {
-  border-color: black;
+  border-color: rgb(251, 251, 251);
 }
 .boorder {
   margin-top: 20px;
   border-radius: 60px;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 254, 254);
 }
