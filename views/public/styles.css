@@ -1,43 +1,43 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 .heading {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-.btn-warning  {
-    margin-bottom: 20px;
-    margin-top: 20px;
+.btn-warning {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.btn-warning:hover{
-    background-color: white;
-    color: black;
+.btn-warning:hover {
+  background-color: white;
+  color: black;
 }
 .btn-edit {
-    margin-left: 5px;
-} 
+  margin-left: 5px;
+}
 .btn-sm {
-    border-color: green;
+  border-color: green;
 }
 .btn-sm:hover {
-    background-color: green;
-    color: white;
-}  
+  background-color: rgb(238, 17, 17);
+  color: white;
+}
 .link {
-    color: black;
+  color: black;
 }
 .login {
-    margin-left: 480px;
+  margin-left: 480px;
 }
 .light {
-    background-image: url("https://in.pinterest.com/pin/733031276829792367/");
+  background-image: url("https://in.pinterest.com/pin/733031276829792367/");
 }
 
 .btn-sign {
-    border-color: black;
+  border-color: black;
 }
 .boorder {
-    margin-top: 20px;
-    border-radius: 60px;
-    border: 2px solid black;
+  margin-top: 20px;
+  border-radius: 60px;
+  border: 2px solid black;
 }
