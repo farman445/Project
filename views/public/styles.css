@@ -9,7 +9,7 @@
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.btn-warning:hover {
+.btn-secondary:hover {
   background-color: white;
   color: black;
 }
@@ -39,5 +39,5 @@
 .boorder {
   margin-top: 20px;
   border-radius: 60px;
-  border: 2px solid rgb(255, 254, 254);
+  border: 2px solid rgb(10, 10, 10);
 }
